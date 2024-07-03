@@ -1,0 +1,227 @@
+
+@media (max-width:320px){
+
+
+    header .menu{
+        display: none;
+    }
+    header{
+        justify-content: center;
+    }
+    .bannercontent{
+        padding:93px 20px 0px 20px;
+        text-align: center;
+        
+       
+    }
+
+    .banner{  
+        display:block;
+        width:100%;
+        padding: 0;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        
+        background-color:var(--background);
+        
+    }
+    .banner h1{
+    
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 38px;
+
+    }
+    .banner p{
+
+font-size: 14px;
+font-weight: 400;
+line-height: 22px;
+
+
+    }
+    .banner button{
+        margin: 20px 0;
+        width:100%;
+        text-align: center;
+    }
+
+    .banner .background{
+        width:100%;
+        background-image: url(../images/general-0-swaps-mobile.png);
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+    } 
+    .crypto{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap:20px;
+    }
+    .crypto > div{
+        width:209.13px;
+    }
+
+
+    .benefits, .benefits .right, .benefits .bottom{
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        width:100%;
+        max-width:100%;
+        justify-content: center;
+        padding:0px;
+        
+    }
+    .benefits .left{
+        width: 100%;
+        max-width:100%;
+        height:235px;
+    }
+    .benefits .top{
+        width: 100%;
+        max-width:100%;
+        height:235px;
+    }
+    .benefits .bottomleft{
+        width: 100%;
+        max-width:100%;
+        height:235px;
+        padding:52px;
+    }
+    .benefits .bottomright{
+        width: 100%;
+        max-width:100%;
+        height:235px;
+        padding:52px;
+    }
+    
+
+
+   
+    .benefits img
+    {   
+        margin-left:30px;
+        width:55px;
+        height:55px;
+    }
+    .benefits .left img 
+    {
+         
+        width:55px;
+        height:55px;
+        margin-top:0px;
+        
+    }
+    
+    .benefits h1{
+        font-size:18px;
+        font-weight:700;
+        line-height:24px;
+        margin-bottom:10px;
+
+    }
+    .benefits .underline{
+        width:50px;
+    }
+    .benefits p{
+        font-size:14px;
+        font-weight: 400;
+        line-height: 20px;
+    }
+
+
+    .gallery div:nth-child(n+3){
+        display:none;
+
+    }
+        
+    .gallerycontainer button{
+        display:block;
+        font-size: 30px;
+    }
+    .gallery div{
+        width:100px;
+        height:100px;
+       
+    }
+    
+
+    .bfh{
+        flex-direction:column;
+        align-items:center;
+        padding:0;
+    }
+    .bfh .left{
+        width:100%;
+        padding:10px;
+        text-align:center;
+        font-size: 35px;
+    }
+    .bfh .left p{
+        text-align:center;
+    }
+    .bfh .left h1{
+        font-size: 40px;
+        line-height:45px;
+        text-align: center;
+        width:100%;
+    }
+    .bfh .right{
+        display:flex;
+        flex-direction: column;
+        width:100%;
+        
+    }
+    .bfh .right p{
+        text-align: center;
+    }
+    .bfh .right h2{
+        text-align: center;
+    }
+    .bfh .grid-item:nth-child(1),
+    .bfh .grid-item:nth-child(2),
+    .bfh .grid-item:nth-child(3),
+    .bfh .grid-item:nth-child(4)
+    {
+        border: none;
+        padding:10px;
+        width:100%;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .footers .footer1{
+        display:none;
+    }
+    .footers .footer2{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        width:100%;
+        overflow: hidden;
+    }
+    .widgetsleft{
+        width:100%;
+        justify-content: center;
+        height: 30px;
+        text-align: center;
+    }
+    .footers .footer2 .widgetsleft a{
+
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 17.14px;
+    text-align: left;
+    width:100%;
+    padding:5px;
+
+    }
+    .footer2 img{
+        margin-top: 30px;
+    }
+
+}
