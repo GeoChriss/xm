@@ -1,96 +1,99 @@
-@media (max-width: 768px) {
-    .banner__background {
-        width: 100%;
+@media (max-width:768px){
+    
+    .banner .background{
+        width:100%;
         background-image: url(../images/general-0-swaps-tablet.png);
         background-size: cover;
         background-position: center center;
         background-repeat: no-repeat;
     }
-
-    .benefit-container,
-    .benefit-container__right,
-    .benefit-container__bottom {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        width: 100%;
-        max-width: 100%;
+    
+    
+    .benefits, .benefits .right, .benefits .bottom{
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        width:100%;
+        max-width:100%;
         justify-content: center;
-        padding: 0;
+        padding:0px;
+        
     }
-
-    .benefit-container__left {
+    .benefits .left{
         width: 100%;
-        max-width: 100%;
-        height: 235px;
+        max-width:100%;
+        height:235px;
     }
-
-    .benefit-container__top {
+    .benefits .top{
         width: 100%;
-        max-width: 100%;
-        height: 235px;
+        max-width:100%;
+        height:235px;
     }
-
-    .benefit-container__bottom-right,
-    .benefit-container__bottom-left {
+    .benefits .bottomleft{
         width: 100%;
-        max-width: 100%;
-        height: 235px;
-        padding: 52px;
+        max-width:100%;
+        height:235px;
+        padding:52px;
+    }
+    .benefits .bottomright{
+        width: 100%;
+        max-width:100%;
+        height:235px;
+        padding:52px;
+    }
+    
+    .benefits .right img
+    {   
+        margin-left:30px;
+        width:85px;
+        height:85px;
+    }
+    .benefits .left img 
+    {     
+        width:55px;
+        height:55px;
+        margin-top:0px;   
+    }
+    .gallery div{
+        width:130px;
+        height:130px;
+
+    }
+    
+    .gallerycontainer div:nth-child(n+5){
+        display:none;
+        
     }
 
-    .benefit-container img {
-        margin-left: 30px;
-        width: 85px;
-        height: 85px;
-    }
 
-    .benefit-container__left img {
-        width: 55px;
-        height: 55px;
-        margin-top: 0px;
-    }
-
-    .gallery__div {
-        width: 130px;
-        height: 130px;
-    }
-
-    .gallery-container__div:nth-child(n+5) {
-        display: none;
-    }
-
-    .bfh {
+    .bfh{
         flex-direction: column;
-        padding: 0;
+        padding:0;
     }
-
-    .bfh__left {
-        width: 100%;
+    .bfh .left{
+        width:100%;
         align-items: center;
         justify-content: center;
-    }
 
-    .bfh__left h1 {
-        width: 100%;
+    }
+    .bfh .left h1{
+        width:100%;
         text-align: center;
         font-size: 35.9px;
-        margin-bottom: 0;
+        margin-bottom:0;
     }
-
-    .bfh__left p {
-        width: 100%;
+    .bfh .left p{
+        width :100%;
         text-align: center;
         font-size: 16px;
         margin-top: 0;
     }
-
-    .bfh__right {
-        width: 90%;
-        margin-bottom: 30px;
+    .bfh .right{
+        width:90%;
+        margin-bottom: 30px;;
     }
 
-    .footers .footer1 {
-        display: none;
+    .footers .footer1{
+        display:none;
     }
 }
